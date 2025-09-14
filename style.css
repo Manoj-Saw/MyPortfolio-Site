@@ -526,7 +526,7 @@ img{
   transition: transform .2s ease;
 }
 
-.about_cta_btn button {
+/* .about_cta_btn button {
   background: transparent;
   font-family: "Rajdhani", sans-serif;
   font-size: 1.1vw;
@@ -542,6 +542,38 @@ img{
 }
 
 .about_cta_btn button:hover {
+  background: #09ae28;
+  box-shadow: 0 0 10px #09ae28;
+  text-shadow: 0px 0px 10px #ffffff;
+  font-weight: 450;
+
+} */
+
+.about_cta_btn {
+  background: transparent;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.1vw;
+  font-weight: 400;
+  letter-spacing: .1vw;
+  padding: 0.6vh 2vw;
+  color: #fff;
+  transform: skew(-30deg);
+  border: 1px solid #09ae28;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.resume_download_btn{
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.1vw;
+  font-weight: 400;
+  letter-spacing: .1vw;
+  color: #fff;
+  
+}
+
+.about_cta_btn:hover {
   background: #09ae28;
   box-shadow: 0 0 10px #09ae28;
   text-shadow: 0px 0px 10px #ffffff;
